@@ -1,0 +1,15 @@
+git clone  " file link"                      
+   else already clone >>>>>>>>> git init
+git status
+git add file name 
+   else add numof file >>>>>>> git add .
+git commit -m (define file name)
+git push origin main
+    else the branch is different >>>>>>>> git push origin branch name 
+
+
+
+change account >>>>>>>>>>>>>>>
+    
+     git config user.name "local account"
+     git config credential.username "new locg account"

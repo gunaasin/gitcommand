@@ -1,0 +1,104 @@
+PS C:\Users\gunat\Videos\assignment 3> npx create-react-app myapp
+
+Creating a new React app in C:\Users\gunat\Videos\assignment 3\myapp.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1461 packages in 3m
+
+242 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 69 packages, and changed 1 package in 8s
+
+246 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1530 packages in 3s
+
+246 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created myapp at C:\Users\gunat\Videos\assignment 3\myapp
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd myapp
+  npm start
+
+Happy hacking!
+PS C:\Users\gunat\Videos\assignment 3> git init    
+Initialized empty Git repository in C:/Users/gunat/Videos/assignment 3/.git/
+PS C:\Users\gunat\Videos\assignment 3> git commit -m "first commit"
+>> git branch -M main
+>> git remote add origin https://github.com/dineshdiv/module3.git
+>> git push -u origin main
+>>
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        myapp/
+
+nothing added to commit but untracked files present (use "git add" to track)
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/dineshdiv/module3.git'
+PS C:\Users\gunat\Videos\assignment 3> cd .\myapp\
+PS C:\Users\gunat\Videos\assignment 3\myapp> git commit -m "first commit"
+>> git branch -M main
+>> git remote add origin https://github.com/dineshdiv/module3.git
+>> git push -u origin main
+>>
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/App.css
+        modified:   src/App.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 176.97 KiB | 5.21 MiB/s, done.
+Total 22 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dineshdiv/module3.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\gunat\Videos\assignment 3\myapp> git config user.name "dineshdiv"
+PS C:\Users\gunat\Videos\assignment 3\myapp> git config credential.username "gunainco" 
+PS C:\Users\gunat\Videos\assignment 3\myapp> 
